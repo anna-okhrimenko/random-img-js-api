@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(../img/ripple.jpg);
+    background-size: cover;
+}
+
 .container {
     display: flex;
     margin: 25px 10px 90px 10px;
     justify-content: space-around;
+    
 }
 
 .img-column {
     display: flex;
-    max-height: 400px;
+    max-height: 410px;
     border: 2px solid #8e8585;
 
 }
@@ -48,6 +54,7 @@
     border-radius: 10px;
     border: 2px solid #8e8585;
     object-fit: contain;
+    background-color: #b4adadb8;
 }
 
 .imges-preview .img-layout {
