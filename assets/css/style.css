@@ -57,8 +57,15 @@
     cursor: pointer;
 }
 
+
 .imges-preview .img-layout img {
     height: auto;
+}
+
+.imges-preview .img-layout img.active {
+    padding: 0;
+    border: 2px solid rgb(116, 96, 96);
+    transform: scale(1.1);
 }
 
 .image-gallery {

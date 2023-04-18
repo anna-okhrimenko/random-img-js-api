@@ -44,5 +44,11 @@ miniImg.forEach(item => {
     item.addEventListener('click', () => {
         const src = item.getAttribute('src');
         picturePreview.setAttribute('src', src);
+        const active = imgPreview.querySelector('.active');
+        if(active) {
+            active.classList.remove('active');
+        }
+        item.classList.add('active');
+
     });
 });
